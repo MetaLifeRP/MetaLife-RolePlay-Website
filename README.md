@@ -1,2 +1,2 @@
-# website
-A MetaLife RolePlay hivatalos weboldala.
+# MetaLife RolePlay
+A weboldal jelenleg nem elérhető. 
