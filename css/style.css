@@ -126,7 +126,7 @@ summary {
     background-image: url(../pictures/tamogatas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 25vh;
+    min-height: 20vh;
 }
 
 #fejleszto {
@@ -164,7 +164,7 @@ button:hover {
     background-image: url(../pictures/piackutatas.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 25vh;
+    min-height: 20vh;
 }
 
 .szabalyzat-btn {
