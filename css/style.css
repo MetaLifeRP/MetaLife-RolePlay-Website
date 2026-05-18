@@ -119,21 +119,21 @@ summary {
     background-image: url(../pictures/kapcsolat.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 50vh;
+    min-height: 40vh;
 }
 
 #tamogatas {
     background-image: url(../pictures/tamogatas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 30vh;
+    min-height: 20vh;
 }
 
 #fejleszto {
     background-image: url(../pictures/fejleszto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 30vh;
+    min-height: 20vh;
 }
 
 .social-media {
