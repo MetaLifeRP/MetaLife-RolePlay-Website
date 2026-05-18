@@ -9,7 +9,7 @@ header {
     background-image: url(../pictures/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 40vh;
+    min-height: 50vh;
 }
 
 h1 {
@@ -119,21 +119,21 @@ summary {
     background-image: url(../pictures/kapcsolat.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 40vh;
+    min-height: 35vh;
 }
 
 #tamogatas {
     background-image: url(../pictures/tamogatas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 20vh;
+    min-height: 35vh;
 }
 
 #fejleszto {
     background-image: url(../pictures/fejleszto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 20vh;
+    min-height: 35vh;
 }
 
 .social-media {
