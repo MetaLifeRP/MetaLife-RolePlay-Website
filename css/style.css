@@ -10,6 +10,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50vh;
+    text-shadow: 2px 2px 4px black;
 }
 
 h1 {
@@ -31,6 +32,11 @@ h1 {
     color: rgb(11, 248, 244);
     width: 8rem;
     box-shadow: 0 0 5px black;
+}
+
+.lepes:hover {
+    scale: 1.2;
+    transition: 1.3s;
 }
 
 p {
@@ -66,7 +72,7 @@ h3 {
 }
 
 .menu {
-    padding: 1rem;
+    padding: 0.5rem;
     min-width: 160px;
     margin: auto;
 }
@@ -80,9 +86,10 @@ h3 {
 }
 
 .menu:hover {
-    font-weight: bold;
-    transition: 1s;
+    background-color: #c2e8f7;
+    transition: 1.5s;
 }
+
 
 .rolunk {
     margin-top: 2rem;
@@ -122,20 +129,6 @@ summary {
     min-height: 25vh;
 }
 
-#tamogatas {
-    background-image: url(../pictures/piackutatas.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 18vh;
-}
-
-#fejleszto {
-    background-image: url(../pictures/piackutatas.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 18vh;
-}
-
 .social-media {
     max-width: 50px;
     border-radius: 100%;
@@ -160,11 +153,9 @@ button:hover {
     color: rgb(11, 248, 244);
 }
 
-#palyazatok {
-    background-image: url(../pictures/piackutatas.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 18vh;
+.felhivas {
+    padding: 2rem;
+    background-color: #c2e8f7;
 }
 
 .szabalyzat-btn {
