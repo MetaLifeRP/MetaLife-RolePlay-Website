@@ -4,13 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pályázatok - MetaLifeRP</title>
+    <title>Jelentkezés - MetaLifeRP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 </head>
 
 <body>
+<script>
+AOS.init({
+    duration: 1900,
+    easing: 'ease-out-cubic',
+    once: true,
+    offset: 80
+});
+</script>
 
     <section class="nav">
         <div class="row container-fluid row1">
@@ -28,7 +37,7 @@
             </a>
         </div>
     </section>
-    <header>
+    <header data-aos="fade-up">
         <div class="container">
             <h1>
                 <p class="vonal"></p><span class="kiemelt">M</span>eta<span class="kiemelt">L</span>ife <span
@@ -38,7 +47,7 @@
         </div>
     </header>
     <main class="container">
-        <section style="display: flex; align-items: center; justify-content: center;">
+        <section style="display: flex; align-items: center; justify-content: center;" data-aos="fade-up">
             <section class="mt-4">
                 <p><img src="pictures/noel.jpg" style="width: 10%; border-radius: 100%;"> <span style="background-color: blueviolet;"> noel224</span> <span style="color: blueviolet;">Staff manager</span></p>
                 <p>📢 Staff Közlemény <span style="background-color: rgba(10, 206, 10, 0.277); color: greenyellow;"> @Játékos </span></p>
@@ -47,7 +56,7 @@
             </section>
         </section>
 
-        <!-- <section>
+        <!-- <section  data-aos="fade-up">
             <h1>Fejlesztői Jelentkezés</h1>
             <div class="container mt-3">
                 <details>
@@ -104,7 +113,7 @@
             <h4>Az oldal jelenleg fejlesztés alatt áll!</h4>
             <h4>Nem minden funkció működőképes vagy megtekinthető!</h4>
         </section> -->
-         <section >
+         <section data-aos="fade-up">
         <h1 class="text-center">
             <a href="https://www.paypal.com/paypalme/LucasKeka/500HUF" target="_blank">
                 <img src="pictures/paypal.jpg" class="social-media">
