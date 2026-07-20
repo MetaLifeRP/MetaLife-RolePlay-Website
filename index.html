@@ -8,11 +8,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 </head>
 
 <body>
 
-    <section class="nav">
+<script>
+AOS.init({
+    duration: 1900,
+    easing: 'ease-out-cubic',
+    once: true,
+    offset: 80
+});
+</script>
+
+    <section class="nav" data-aos="fade-up">
         <div class="row container-fluid row1">
             <div class="col-lg-6 logo mt-3">
                 <h3>MetaLife RolePlay</h3>
@@ -29,7 +41,7 @@
         </div>
     </section>
 
-    <header>
+    <header data-aos="fade-up">
         <div class="container">
             <h1>
                 <p class="vonal"></p><span class="kiemelt">M</span>eta<span class="kiemelt">L</span>ife <span
@@ -40,7 +52,7 @@
     </header>
 
     <main class="container">
-        <section>
+        <section data-aos="fade-up">
             <h1>Indulj el 3 lépésben!</h1>
             <div class="row pt-5 text-center">
                 <div class="col-md-4">
@@ -57,14 +69,14 @@
             </div>
         </section>
 
-        <section id="palyazatok" class="my-4 text-center felhivas">
+        <section id="palyazatok" class="my-4 text-center felhivas" data-aos="fade-up">
             <h3 style="color: black; text-shadow: 1px 1px 2px white;">PÁLYÁZATOK</h3>
             <h4 class="text-center" style="color: black; text-shadow: 1px 1px 2px white;">Elérhetővé váltak
                 frakcióvezetői pályázataink. Ha szeretnél egy frakciót itt a lehetőség megpályázni.</h4>
             <a href="palyazatok.html"><button>Tovább ➤</button></a>
         </section>
 
-        <section>
+        <section data-aos="fade-up">
             <div class="row">
                 <div class="col-md-6">
                     <h1>Olvasd el a szabályzatot!</h1>
@@ -79,7 +91,7 @@
             </div>
         </section>
 
-        <section class="text-center mt-2 row">
+        <section class="text-center mt-2 row" data-aos="fade-up">
             <div class="col-lg-3"></div>
             <div class="col-lg-6">
                 <img src="pictures/felhivas.png" class="w-100">
@@ -88,13 +100,13 @@
             
         </section>
 
-        <section id="fejleszto" class="my-5 text-center felhivas">
+        <section id="fejleszto" class="my-5 text-center felhivas" data-aos="fade-up">
             <h3 style="color: black; border: 1px 2px white;">JELENTKEZZ</h3>
             <h4 class="text-center" style="color: black; border: 1px 2px white;">Lehetőség nyílt jelentkezni a MetaLife RolePlay fejlesztői csapatához! <br> Ha szeretnél jelentkezni azt tedd meg hamar!</h4>
             <a href="staff.html"><button>Tovább ➤</button></a>
         </section>
 
-        <section id="tamogatas" class="my-5 text-center felhivas">
+        <section id="tamogatas" class="my-5 text-center felhivas" data-aos="fade-up">
             <h3 style="color: black; text-shadow: 1px 1px 2px white;">TÁMOGATÁS</h3>
             <h4 class="text-center" style="color: black; text-shadow: 1px 1px 2px white;">Ha szeretnéd támogatni
                 munkásságunk most megteheted PayPal-on keresztül!</h4>
@@ -102,7 +114,7 @@
         </section>
 
 
-         <section >
+         <section data-aos="fade-up">
         <h1 class="text-center">
             <a href="https://www.paypal.com/paypalme/LucasKeka/500HUF" target="_blank">
                 <img src="pictures/paypal.jpg" class="social-media">
